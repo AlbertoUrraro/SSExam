@@ -38,7 +38,7 @@ Compile code on cmd
 Per maggiori dettagli
 
 ```bash
-  Consultare la documentazione https://github.com/AlbertoUrraro/SSExam/blob/main/ElaboratoSS%20.pdf
+   https://github.com/AlbertoUrraro/SSExam/blob/main/ElaboratoSS%20.pdf
 ```
 
 # VirusTotal
