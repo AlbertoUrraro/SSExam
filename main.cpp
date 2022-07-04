@@ -36,7 +36,7 @@ void gettime(void) //prende e scrive data ed ora locali del sistema .
     sysfile.open(path.c_str(), ios::app);
     time_t now = time(0);
     char *dt = ctime(&now);
-    sysfile << "The local date and time is: " << dt << endl;
+    sysfile << "La data e l'ora locali sono: " << dt << endl;
     sysfile.close();
 }
 
