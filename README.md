@@ -62,7 +62,7 @@ Per maggiori dettagli
 
 ### Keylogger
 
-![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key1_1.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key1.png)
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key2.png)
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key3.png)
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key4.png)
