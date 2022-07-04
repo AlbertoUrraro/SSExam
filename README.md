@@ -56,6 +56,12 @@ Compile code con cmd
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key3.png)
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key4.png)
 
+## Sviluppi Futuri
+
+    * Persistenza del keylogger al riavvio
+      *Prima idea: inserire il path del file exe nella start up di windows
+      *Seconda Idea : Process injection
+
 ## Made By
 
 - [@Alberto-Urraro]
