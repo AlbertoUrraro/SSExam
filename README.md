@@ -39,20 +39,22 @@ Compile code con cmd
 
 ### Main
 
-![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/Login.png)
-![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/registrazione.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/Main.png)
 
 ### System info
 
-![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/PasswordDimenticata.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/systeminfo.png)
 
 ### Send Email
 
-![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/Email.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/email.png)
 
 ### Keylogger
 
-![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/ResetPassword.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key1.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key2.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key3.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/key4.png)
 
 ## Made By
 
