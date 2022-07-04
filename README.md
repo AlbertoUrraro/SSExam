@@ -29,7 +29,7 @@ Directory del progetto
   cd SSExam-main
 ```
 
-Compile code con cmd
+Compile code on cmd
 
 ```bash
   g++ main.cpp -o <nomedeciso>.exe
