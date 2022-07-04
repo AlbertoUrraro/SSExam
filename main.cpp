@@ -52,7 +52,7 @@ void showsysteminfo(void) //Funzione che permette di memorizzare le informazioni
     ofstream sysfile;
     path = getenv("appdata");
     path += "\\Logs\\SystemInfo.txt";
-    sysfile.open(path.c_str(), ios::out); // apertura del file(sysfile) che conterra tutte le unformazioni di sitema sottostante
+    sysfile.open(path.c_str(), ios::out); // apertura del file(sysfile) che conterra tutte le informazioni di sitema sottostante
 
     sysfile << "Informazioni Hardware : \n";
 
