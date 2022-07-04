@@ -42,6 +42,12 @@ Compile code on cmd
 
 # Descrizione Codice
 
+Per maggiori dettagli
+
+```bash
+  Consultare la documentazione
+```
+
 ### Main
 
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/Main.png)
