@@ -11,7 +11,7 @@ Questo progetto ha lo scopo di mostrate come dei mal intenzionati presenti in re
 
 **Code:** Virtual studio Code
 
-**VMware:** Kali linnux machine
+**VMware:** Kali linux machine
 
 **UTM:** Windows 11 machine
 
@@ -20,13 +20,13 @@ Questo progetto ha lo scopo di mostrate come dei mal intenzionati presenti in re
 Clone del progetto
 
 ```bash
-  git clone https://github.com/
+  git clone https://github.com/AlbertoUrraro/SSExam.git
 ```
 
 Directory del progetto
 
 ```bash
-  cd SSKEYLOGFINAL
+  cd SSExam-main
 ```
 
 Compile code con cmd
@@ -42,7 +42,7 @@ Compile code con cmd
 ![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/Login.png)
 ![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/registrazione.png)
 
-### Info-group
+### System info
 
 ![](https://github.com/AlbertoUrraro/Talk-Alot/blob/main/Screenshot/PasswordDimenticata.png)
 
