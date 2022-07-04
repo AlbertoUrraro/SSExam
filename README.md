@@ -35,18 +35,18 @@ Compile code on cmd
   g++ main.cpp -o <nomedeciso>.exe
 ```
 
+Per maggiori dettagli
+
+```bash
+  Consultare la documentazione
+```
+
 # VirusTotal
 
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virustotal.png)
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virus%20total%202.png)
 
 # Descrizione Codice
-
-Per maggiori dettagli
-
-```bash
-  Consultare la documentazione
-```
 
 ### Main
 
