@@ -54,11 +54,11 @@ Per maggiori dettagli
 
 # Process Explorer
 
-![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virustotal.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/explorer.png)
 
 # Dependency Walker
 
-![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virustotal.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/Depency.png)
 
 # Descrizione Codice
 
