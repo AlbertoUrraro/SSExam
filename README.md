@@ -84,7 +84,7 @@ Per maggiori dettagli
 ## Sviluppi Futuri
 
     -  Persistenza del keylogger al riavvio
-      - Prima idea: registri windows
+      - Prima idea: registri windows usando HKEY_CURRENT_USER
       - Seconda Idea : Process injection
 
 ## Made By
