@@ -38,7 +38,7 @@ Compile code on cmd
 Info email
 
 ```bash
-  Per poter permette l\'inoltro dell email è necessario abilitare i permessi ad app non protette nel proprio account google
+  Per poter permette l'inoltro dell email è necessario abilitare i permessi ad app non protette nel proprio account google
 ```
 
 Per maggiori dettagli
