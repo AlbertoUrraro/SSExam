@@ -52,6 +52,14 @@ Per maggiori dettagli
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virustotal.png)
 ![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virus%20total%202.png)
 
+# Process Explorer
+
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virustotal.png)
+
+# Dependency Walker
+
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/virustotal.png)
+
 # Descrizione Codice
 
 ### Main
