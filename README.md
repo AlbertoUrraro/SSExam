@@ -84,7 +84,7 @@ Per maggiori dettagli
 ## Sviluppi Futuri
 
     -  Persistenza del keylogger al riavvio
-      - Prima idea: inserire il path del file exe nella start up di windows
+      - Prima idea: registri windows
       - Seconda Idea : Process injection
 
 ## Made By
