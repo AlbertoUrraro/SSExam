@@ -20,31 +20,31 @@ Questo progetto ha lo scopo di mostrate come dei mal intenzionati presenti in re
 Clone del progetto
 
 ```bash
-  git clone https://github.com/AlbertoUrraro/SSExam.git
+  'git clone https://github.com/AlbertoUrraro/SSExam.git'
 ```
 
 Directory del progetto
 
 ```bash
-  cd SSExam-main
+  'cd SSExam-main'
 ```
 
 Compile code on cmd
 
 ```bash
-  g++ main.cpp -o <nomedeciso>.exe
+  'g++ main.cpp -o <nomedeciso>.exe'
 ```
 
 Info email
 
 ```bash
-  Per poter permette l'inoltro dell email è necessario abilitare i permessi ad app non protette nel proprio account google
+  'Per poter inoltrare l email è necessario abilitare i permessi ad app non protette nel proprio account google
 ```
 
 Per maggiori dettagli
 
 ```bash
-   https://github.com/AlbertoUrraro/SSExam/blob/main/ElaboratoSS%20.pdf
+   'https://github.com/AlbertoUrraro/SSExam/blob/main/ElaboratoSS%20.pdf'
 ```
 
 # VirusTotal
