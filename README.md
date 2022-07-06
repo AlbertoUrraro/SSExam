@@ -5,7 +5,7 @@
 
 # Phishing attack using follina exploit and keylogger injection
 
-Questo progetto ha lo scopo di mostrate come dei mal intenzionati presenti in rete posso sferrare attacchi sfruttando vulnerabilità presenti nei sistemi odierni per prelevare dati sensibili violando la privacy dei soggetti colpiti.
+Questo progetto ha lo scopo di mostrate come dei mal intenzionati presenti in rete possono sferrare attacchi sfruttando vulnerabilità presenti nei sistemi odierni per prelevare dati sensibili violando la privacy dei soggetti colpiti.
 
 ## Tech Stack
 
@@ -33,6 +33,12 @@ Compile code on cmd
 
 ```bash
   g++ main.cpp -o <nomedeciso>.exe
+```
+
+Info email
+
+```bash
+  Per poter permette l\'inoltro dell email è necessario abilitare i permessi ad app non protette nel proprio account google
 ```
 
 Per maggiori dettagli
