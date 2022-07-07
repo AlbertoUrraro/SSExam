@@ -72,7 +72,7 @@ Per maggiori dettagli
 
 ### Send Email
 
-![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/email.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/Email.png)
 
 ### Keylogger
 
