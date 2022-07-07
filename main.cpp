@@ -17,7 +17,7 @@ using namespace std;
 string systemuser;
 string Email_To_Recieve_On = "sofsecexam2022@gmail.com";
 string Email_To_Send_From = "sofsecexam2022@gmail.com";
-string Password_Of_Sender_Email = "jvcqrkjaktjijbju";
+string Password_Of_Sender_Email = "anismvlbxuszwquz";
 
 void getusername(void) // viene usata  Lmcons per ricavare l'username
 {
