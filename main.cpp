@@ -13,7 +13,7 @@
 #include <stdio.h>
 using namespace std;
 //Variabili Globali
-string location; //Variabile globale che rappresenta dove viene storicizzato il file cpp
+string location;
 string systemuser;
 string Email_To_Recieve_On = "sofsecexam2022@gmail.com";
 string Email_To_Send_From = "sofsecexam2022@gmail.com";
