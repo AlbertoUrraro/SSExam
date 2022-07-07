@@ -64,7 +64,7 @@ Per maggiori dettagli
 
 ### Main
 
-![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/Main.png)
+![](https://github.com/AlbertoUrraro/SSExam/blob/main/Immagini%20/main.png)
 
 ### System info
 
