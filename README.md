@@ -44,7 +44,7 @@ Info email
 Per maggiori dettagli
 
 ```bash
-   https://github.com/AlbertoUrraro/SSExam/blob/main/ElaboratoSSFinale.pdf
+   https://github.com/AlbertoUrraro/SSExam/blob/main/ElaboratoSS.pdf
 ```
 
 # VirusTotal
